@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h5 {
+    @apply absolute text-white uppercase text-lg max-w-24 font-light bottom-2 left-5 md:text-2xl  group-hover:scale-110 group-hover:text-black;
+  }
+  h4 {
+    @apply text-center mx-auto uppercase text-2xl text-black font-extralight md:mx-0 md:mt-12;
+  }
+  .items-container {
+    @apply grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-5 w-[100%] px-4 md:w-full mx-auto md:px-8;
+  }
+  .item-gradient {
+    @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+  }
+}
+@layer components {
+  button {
+    @apply uppercase py-2 px-10 text-center text-black font-normal text-base tracking-widest border border-black mt-4 md:mt-12;
+  }
+}
+#hero {
+  background-image: url("/assets/images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add this in your CSS file (or @layer in Tailwind) */
+#menu.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    background-image: url("/assets/images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+}
+
+.hamburger {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 9;
+}
+.hamburger-middle {
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
