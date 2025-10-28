@@ -15,7 +15,7 @@
 
 ---
 
-## 🌐 Live Demo → https://pro-mcode.github.io/demo-loopstudio/
+## 🌐 Live Demo
 
 ## 👉 Live Site **[demo-loopstudio.netlify.app](https://demo-loopstudio.netlify.app)**
 
@@ -78,21 +78,27 @@ loopstudio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/demo-loopstudio.git
+   git clone https://github.com//pro-mcode/demo-loopstudio.git
    cd demo-loopstudio
    ```
 2. **Install Tailwind (if editing styles)**
 
-   npm install -D tailwindcss
-   npx tailwindcss init
+   ````npm install -D tailwindcss
+   npx tailwindcss init```
+
+   ````
 
 3. **Run Tailwind build**
 
-   npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+   ```npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+
+   ```
 
 4. **Launch the page**
 
-   open index.html
+   ```open index.html
+
+   ```
 
 ## 📱 Responsive Design
 
