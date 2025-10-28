@@ -83,22 +83,16 @@ loopstudio/
    ```
 2. **Install Tailwind (if editing styles)**
 
-   ````npm install -D tailwindcss
-   npx tailwindcss init```
-
-   ````
+   npm install -D tailwindcss
+   npx tailwindcss init
 
 3. **Run Tailwind build**
 
-   ```npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
-
-   ```
+   npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
 
 4. **Launch the page**
 
-   ```open index.html
-
-   ```
+   open index.html
 
 ## 📱 Responsive Design
 
