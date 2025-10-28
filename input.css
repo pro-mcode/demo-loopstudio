@@ -9,8 +9,11 @@
   h4 {
     @apply text-center mx-auto uppercase text-2xl text-black font-extralight md:mx-0 md:mt-12;
   }
+  #creations {
+    @apply w-[100%] px-4 md:w-full mx-auto md:px-8;
+  }
   .items-container {
-    @apply grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-5 w-[100%] px-4 md:w-full mx-auto md:px-8;
+    @apply grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-5;
   }
   .item-gradient {
     @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;

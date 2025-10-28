@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.html"],
+  safelist: ["item-gradient"],
   theme: {
     screens: {
       sm: "480px",
