@@ -1,128 +1,88 @@
-# 📋 Loopstudio Landing Page
+# Loopstudio – Creative Virtual Reality Agency Landing Page
 
-![Loopstudio Preview](./assets/images/preview.png)
+> A modern, immersive landing page for Loopstudio, a creative virtual reality agency that blends technology and imagination to build impressive experiences. Built with HTML, TailwindCSS, CSS, and JavaScript.
 
-> A sleek, responsive landing page for **Loopstudio** — the productivity tool that keeps track of everything you copy.  
-> Sync your snippets across devices, organize your text, and boost your workflow.
+## Table of Contents
 
----
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://demo-Loopstudio.netlify.app)
-[![Built with Tailwind CSS](https://img.shields.io/badge/Built%20with-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![JavaScript ES6](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
----
-
-## 🌐 Live Demo
-
-## 👉 Live Site **[demo-loopstudio.netlify.app](https://demo-loopstudio.netlify.app)**
-
-## 💻 GitHub Repo: [https://github.com/pro-mcode/demo-loopstudio] (https://github.com/pro-mcode/demo-loopstudio)
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Pages](#pages)
+- [Deployment](#deployment)
+- [Author & Developer](#author--developer)
+- [License](#license)
 
 ---
 
-## 🧠 Overview
+## Overview
 
-A modern, immersive landing page for Loopstudio — a creative virtual reality agency that builds impressive experiences blending technology and imagination.
+Loopstudio is a modern landing page for a creative virtual reality agency. It showcases immersive VR experiences and demonstrates the agency's ability to combine technology with imagination to deliver unique digital experiences.
 
-Built for speed, accessibility, and pixel-perfect design using **Tailwind CSS**.
+## Features
 
----
+- Immersive, visually engaging landing page
+- Responsive design across devices
+- Modern animations and interactive elements
+- Showcases agency projects and services
+- Fully responsive design
+- Styled with TailwindCSS
 
-## ✨ Features
+## Tech Stack
 
-- 🎮 **Interactive Navigation:** Smooth hamburger menu toggle with transitions.
-- 🖼️ **Dynamic Gallery:** Creations section populated from a JavaScript data file.
-- 🌆 **Responsive Layout:** Seamlessly adapts from mobile to widescreen.
-- 💡 **Modern Design:** Balanced white space, strong typography, and subtle gradients.
-- 🧱 **Modular Code:** JS components separated for scalability and readability.
-- 🧭 **SEO-Friendly:** Semantic HTML and responsive meta viewport setup.
-- 📱 **Fully Responsive:** Tailored for every screen size.
+Frontend:
 
----
+- JavaScript (ES6+)
+- TailwindCSS
+- HTML
 
-## 🛠️ Tech Stack
+Other Tools:
 
-| Technology           | Purpose                                                    |
-| -------------------- | ---------------------------------------------------------- |
-| **HTML5**            | Page structure & semantics                                 |
-| **Tailwind CSS**     | Styling & responsive design                                |
-| **JavaScript (ES6)** | Interactive menu & dynamic rendering                       |
-| **Font Awesome**     | Social media & feature icons                               |
-| **Google Fonts**     | Custom typography (Playfair Display, Oswald, Playwrite CA) |
-| **Netlify**          | Hosting & deployment                                       |
+- Git
+- Vite
 
----
+## Installation
 
-## 📁 Folder Structure
+Clone the repository and install dependencies:
 
-loopstudio/
-├── assets/
-│ ├── images/
-│ └── icons/
-├── css/
-│ └── output.css
-├── data/
-│ └── creations.js
-├── main.js
-├── index.html
-├── package.json
-├── README.md
-└── tailwind.config.js
+```bash
+git clone https://github.com/pro-mcode/demo-loopstudio.git
+cd demo-loopstudio
+npm install
+```
 
----
+## Usage
 
-## ⚙️ Installation & Setup
+```bash
+npm run dev
+npm run build
+npm run preview
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com//pro-mcode/demo-loopstudio.git
-   cd demo-loopstudio
-   ```
-2. **Install Tailwind (if editing styles)**
+## Pages
 
-   npm install -D tailwindcss
-   npx tailwindcss init
+Pages:
 
-3. **Run Tailwind build**
+- HomePage
 
-   npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+## Deployment
 
-4. **Launch the page**
+```bash
+npm run build
+```
 
-   open index.html
+## Author & Developer
 
-## 📱 Responsive Design
+### Author: Adedamola Maxwell.
 
-| Device      | Layout Behavior                                  |
-| ----------- | ------------------------------------------------ |
-| **Mobile**  | Collapsible menu, stacked cards (3 per view max) |
-| **Tablet**  | Balanced spacing and centered hero section       |
-| **Desktop** | Full-width visuals with side-by-side layout      |
+### Developer: AD-M Innovations.
 
-## 👨‍💻 Developer
+### Innovating Ideas. Delivering Excellence.
 
-**Built & Designed by**
+### From concept to code, powering future tech innovation.
 
-## 💡 AD-M INNOVATIONS
+## License
 
-    Made with ❤️ using HTML, JavaScript (ES6), Tailwind CSS, and creativity.
-
-## 🧑‍💻 Author
-
-Adedamola Maxwell
-Frontend Engineer & Blockchain Enthusiast
-
-## 💼 GitHub: [https://github.com/pro-mcode]
-
-## 📧 Email: [promcode01@gmail.com]
-
-### 💡 “Building fast, responsive, and accessible web experiences — one project at a time.”
-
-## 📜 License
-
-    This project is released under the MIT License
-    .
-    You’re free to use, modify, and distribute with attribution.
+MIT License © 2025 AD-M Innovations
